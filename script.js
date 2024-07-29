@@ -25,3 +25,13 @@ function capitalize(string) {
 let capitalizeResult = capitalize("HeLlO");
 
 console.log(capitalizeResult);
+
+
+
+function lastLetter (string) {
+    return string.charAt(string.length-1)
+}
+
+let lastLetterResult = lastLetter("Saief");
+
+console.log(lastLetterResult)
